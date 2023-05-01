@@ -1,0 +1,76 @@
+{
+"breadcrumbs": {
+"categories": "Les activités pédagogiques"
+},
+"sociaLinks": {
+"facebook": "https://www.facebook.com/LICA.europe/",
+"instagram": "https://www.instagram.com/lica.europe/",
+"youtube": "https://www.youtube.com/channel/UCKOexcQTV7YIFlx1MK0kIkw",
+"linkedin": "https://fr.linkedin.com/company/lica-europe",
+"twitter": "https://twitter.com/LicaEurope"
+},
+"datagridCells": {
+"userHeadCells": {
+"professionnelActivityDuringFocale": "Activité parcours pédagogique"
+},
+"eventParticipantsHeadCells": {
+"professionnelActivityDuringFocale": "Activité parcours pédagogique"
+}
+},
+"navigation": {
+"activitiesCategories": {
+"list": "Les actions pédagogiques"
+},
+"forIntervener": {
+"activitiesCategories": {
+"list": "Les actions pédagogiques",
+"show": "Informations sur l'action pédagogique'"
+}
+}
+},
+"activitiesCategoryForm": {
+"validationSchema": {
+"name": "Veuillez renseigner le nom de l'action pédagogique"
+},
+"label": {
+"name": "Nom de l'action pédagogique"
+}
+},
+"activitiesCategoryUploadDialog": {
+"modal": {
+"title": "Modifier la photo de l'action pédagogique"
+}
+},
+"intervenerActivitiesCategories": {
+"title": "Les activités pédagogiques"
+},
+"home": {
+"follow": "Suivez toute l'actualité du LICA !",
+"description": "Poster LICA",
+"appName": "de démo LICA"
+},
+"welcome": {
+"project": "Plateforme pédagogique",
+"help": "L'espace de démonstration de la plateforme pédagogique LICA."
+},
+"menuLayout": {
+"description": "Démo LICA"
+},
+"badges": {
+"onChainInfo": "Les badges certifiés ont été remis par un membre de l'équipe pédagogique qui valide une compétence acquise par un participant."
+},
+"loginForm": {
+"appName": "Démo LICA"
+},
+"journeyForm": {
+"status": "Statut au sein du parcours pédagogique"
+},
+"activityList": {
+"title": "Les actions pédagogiques"
+},
+"agenda": {
+"select": {
+"categories": "Action.s pédagogique.s"
+}
+}
+}

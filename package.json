@@ -1,0 +1,92 @@
+{
+  "name": "demo-front",
+  "version": "4.8.0",
+  "private": true,
+  "engines": {
+    "node": ">=16.0.0 <17"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.15.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/lab": "^5.0.0-alpha.59",
+    "@mui/material": "^5.2.3",
+    "@mui/styles": "^5.2.3",
+    "@mui/x-data-grid": "^5.1.0",
+    "@mui/x-date-pickers": "^5.0.0-beta.6",
+    "@lica-tech/front-end-core": "^0.9.1",
+    "@toast-ui/react-calendar": "^1.0.6",
+    "axios": "^0.21.1",
+    "axios-cache-adapter": "^2.7.3",
+    "babel-eslint": "^10.1.0",
+    "bip39": "^3.1.0",
+    "classnames": "^2.3.1",
+    "crypto": "^1.0.1",
+    "date-fns": "^2.21.1",
+    "eslint-plugin-import": "^2.25.4",
+    "ethereum-hdwallet": "^0.1.2",
+    "formik": "^2.2.6",
+    "i18next": "^21.6.11",
+    "immer": "^8.0.1",
+    "js-cookie": "^2.2.1",
+    "material-ui-dropzone": "^3.5.0",
+    "material-ui-phone-number-2": "^1.2.7",
+    "node-rsa": "^1.1.1",
+    "notistack": "^2.0.8",
+    "qrcode": "^1.5.1",
+    "react": "^17.0.1",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.3.2",
+    "react-i18next": "^11.15.4",
+    "react-lazily": "^0.9.1",
+    "react-lazy-named": "^1.2.2",
+    "react-material-ui-carousel": "^2.2.4",
+    "react-placeholder": "^4.1.0",
+    "react-promise-tracker": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-touch-carousel": "^0.10.2",
+    "serve": "^12.0.0",
+    "use-deep-compare-effect": "^1.8.1",
+    "yup": "^0.32.9",
+    "zustand": "^4.1.0"
+  },
+  "scripts": {
+    "install-latest-core": "yarn upgrade @lica-tech/front-end-core@alpha && yarn install",
+    "build": "react-app-rewired --max-old-space-size=8192 build",
+    "dev": "react-app-rewired --max-old-space-size=8192 start",
+    "start": "serve -s build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "^0.7.7",
+    "babel-jest": "26.6.3",
+    "eslint": "7.11.0",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-react": "^7.26.1",
+    "node-fetch": "^3.1.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.65.0"
+  }
+}

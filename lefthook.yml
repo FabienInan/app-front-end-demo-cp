@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    linter:
+      glob: "*.{js,ts,jsx,tsx}"
+      run: yarn eslint {staged_files}
+
+pre-push:
+  parallel: true
+  commands:
+    linter:
+      run: yarn eslint
